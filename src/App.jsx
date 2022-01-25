@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import bw from "./b&w.jpg"
+import lua from "./luaa.gif"
 
 function App() {
 
@@ -24,16 +25,16 @@ function App() {
       </header>
       <main className='pt-16 font-sans text-lg xl:text-xl px-10 mb-56'>
         <div className='px-20 flex w-full justify-between'>
-          <div className='p-10 text-right'>
-            <img src={bw} className='w-48 m-4 float-right ' />
-            Profile about me. I am the drummer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. Sint veritatis cum veniam perferendis illo tempore maxime eveniet, labore atque quis impedit doloremque? Praesentium molestiae iste mollitia, ea odio deleniti nostrum corporis, soluta sit, esse tenetur similique!
+          <div className='p-16 text-right'>
+            <img src={lua} className='w-48 m-4 float-right ' />
+            Profile about me. I play the drum kit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. Sint veritatis cum veniam perferendis illo tempore maxime eveniet, labore atque quis impedit doloremque? Praesentium molestiae iste mollitia, ea odio deleniti nostrum corporis, soluta sit, esse tenetur similique!
           </div>
-          <div className='p-10 text-left'>
-            <img src={bw} className='w-48 m-4 float-left' />
+          <div className='p-16 text-left'>
+            <img src={lua} className='w-48 m-4 float-left' />
             Profile about Nick. Nick plays trombone and melodica. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. Sint veritatis cum veniam perferendis illo tempore maxime eveniet, labore atque quis impedit doloremque? Praesentium molestiae iste mollitia, ea odio deleniti nostrum corporis, soluta sit, esse tenetur similique!
           </div>
         </div>
-        <div className='my-96'>
+        {/* <div className='my-96'>
           .
         </div>
         <div className='my-96'>
@@ -41,7 +42,7 @@ function App() {
         </div>
         <div className='my-96'>
           .
-        </div>
+        </div> */}
       </main>
     </div>
   )
