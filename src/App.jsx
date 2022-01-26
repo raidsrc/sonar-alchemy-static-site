@@ -36,7 +36,7 @@ function App() {
             <div className='profile-img-mobile'>
               <img src={lua} className='p-8' />
             </div>
-            <img src={lua} className='profile-image-desktop hidden sm:inline-block profile-img float-right' />
+            <img src={lua} className='hidden sm:inline-block profile-img float-right' />
             <span>Profile about me. I play the drum kit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. </span>
           </div>
 
@@ -45,23 +45,19 @@ function App() {
             <div className='profile-img-mobile'>
               <img src={lua} className='p-8' />
             </div>
-            <img src={lua} className='profile-image-desktop hidden sm:inline-block profile-img float-left' />
+            <img src={lua} className='hidden sm:inline-block profile-img float-left' />
             <span>Profile about Nick. Nick plays trombone and melodica. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. </span>
           </div>
 
           {/* the below div only shows up when the screen is wider than 1024 px */}
-          <div className='grid grid-cols-3 grid-rows-2'>
-            <div className='row-start-1 col-start-1 flex justify-center p-3'>
-              <span className='text-right'>Profile about me. I play the drum kit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. </span>
+          <div className='hidden lg:inline-block space-y-12'>
+            <div className='flex justify-evenly items-center 2xl:px-20 mr-40'>
+              <div className='text-right w-4/6'>Profile about me. I play the drum kit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. </div>
+              <img src={lua} className='w-1/4 xl:w-1/5 2xl:w-1/6 max-w-xs' />
             </div>
-            <div className='row-start-1 col-start-2 flex justify-center p-3'>
-              <img src={lua} className='profile-image-desktop' />
-            </div>
-            <div className='row-start-2 col-start-2 flex justify-center p-3'>
-              <img src={lua} className='profile-image-desktop' />
-            </div>
-            <div className='row-start-2 col-start-3 flex justify-center p-3'>
-            <span className='text-left'>Profile about Nick. Nick plays trombone and melodica. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. </span>
+            <div className='flex justify-evenly items-center 2xl:px-20 ml-40'>
+              <img src={lua} className='w-1/4 xl:w-1/5 2xl:w-1/6 max-w-xs' />
+              <div className='w-4/6'>Profile about Nick. Nick plays trombone and melodica. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. </div>
             </div>
           </div>
         </div>
