@@ -25,7 +25,7 @@
 
 @layer utilities {
   .header-img-slant {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 74%);
   }
   .font-libre-baskerville {
     font-family: "Libre Baskerville";
