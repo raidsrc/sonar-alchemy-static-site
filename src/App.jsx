@@ -36,6 +36,7 @@ function App() {
             <div className='profile-img-mobile'>
               <img src={lua} className='p-8' />
             </div>
+            {/* while this img only shows up when the screen is slightly larger than narrow */}
             <img src={lua} className='hidden sm:inline-block profile-img float-right' />
             <span>Profile about me. I play the drum kit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. </span>
           </div>
@@ -45,6 +46,7 @@ function App() {
             <div className='profile-img-mobile'>
               <img src={lua} className='p-8' />
             </div>
+            {/* while this img only shows up when the screen is slightly larger than narrow */}
             <img src={lua} className='hidden sm:inline-block profile-img float-left' />
             <span>Profile about Nick. Nick plays trombone and melodica. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. </span>
           </div>
