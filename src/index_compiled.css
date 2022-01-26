@@ -886,4 +886,20 @@ p{
   .landscape-phone\:bottom-16{
     bottom: 4rem;
   }
+
+  .landscape-phone\:bottom-20{
+    bottom: 5rem;
+  }
+
+  .landscape-phone\:bottom-32{
+    bottom: 8rem;
+  }
+
+  .landscape-phone\:bottom-28{
+    bottom: 7rem;
+  }
+
+  .landscape-phone\:bottom-12{
+    bottom: 3rem;
+  }
 }

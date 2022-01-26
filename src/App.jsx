@@ -4,7 +4,7 @@ import lua from "./luaa.gif"
 
 function RayProfileBlurb(props) {
   return (
-    <span>Ray is a student at the University of California, Davis. He's studying biochemistry and computer science, but he'd rather be a musician. </span>
+    <span>Ray is a student at the University of California, Davis. He's studying biochemistry and computer science, but if he could, he'd make music his career.  </span>
   )
 }
 function NickProfileBlurb(props) {
@@ -20,11 +20,11 @@ function App() {
       <header className=''>
         {/* <span className='absolute top-60 left-10 text-5xl opacity-40'>in the future the photograph of us playing will go here</span> */}
         <img src={bw} className='h-[90vh] opacity-50 -z-10 w-screen md:h-screen brightness-50 header-img-slant object-cover' />
-        <div className='absolute md:flex flex-row flex-wrap items-baseline justify-between md:justify-start w-10/12 sm:w-11/12 bottom-44 left-8 md:bottom-32 md:left-10 thin-landscape-phone:bottom-24 '>
+        <div className='absolute md:flex flex-row flex-wrap items-baseline justify-between md:justify-start w-10/12 sm:w-11/12 bottom-44 left-8 md:bottom-32 md:left-10 landscape-phone:bottom-28'>
           <div className='text-5xl md:text-8xl pr-10 pb-2'>Sonar Alchemy</div>
           <div className='text-3xl font-serif font-bold lg:pl-36'>noun</div>
         </div>
-        <div className='absolute left-8 bottom-32 md:bottom-12 md:left-10 text-3xl thin-landscape-phone:bottom-12'>
+        <div className='absolute left-8 bottom-32 md:bottom-12 md:left-10 text-3xl landscape-phone:bottom-16'>
           <span className=''>sō-ˌnär al-kə-mē</span><span></span>
         </div>
         <div className='font-mono text-lg xl:text-xl px-10 '>
