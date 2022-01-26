@@ -12,7 +12,7 @@ function App() {
     <div className='text-zinc-100 mb-10'>
       <header className=''>
         {/* <span className='absolute top-60 left-10 text-5xl opacity-40'>in the future the photograph of us playing will go here</span> */}
-        <img src={bw} className='h-[90vh] opacity-50 -z-10 md:w-screen md:h-screen brightness-50 header-img-slant object-cover' />
+        <img src={bw} className='h-[90vh] opacity-50 -z-10 w-screen md:h-screen brightness-50 header-img-slant object-cover' />
         <div className='absolute md:flex flex-row flex-wrap items-baseline justify-between md:justify-start w-10/12 sm:w-11/12 bottom-44 left-8 md:bottom-32 md:left-10'>
           <div className='text-5xl md:text-8xl pr-10'>Sonar Alchemy</div>
           <div className='text-3xl font-serif font-bold lg:pl-36'>noun</div>
