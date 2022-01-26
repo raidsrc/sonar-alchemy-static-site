@@ -23,15 +23,21 @@ function App() {
           <p className='pl-5'>2. Follow Sonar Alchemy at *insert links here insert links here insert links here*.</p>
         </div>
       </header>
-      <main className='pt-16 font-sans text-lg xl:text-xl px-10 mb-56'>
-        <div className='px-20 flex w-full justify-between'>
-          <div className='p-16 text-right'>
-            <img src={lua} className='w-48 m-4 float-right ' />
-            Profile about me. I play the drum kit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. Sint veritatis cum veniam perferendis illo tempore maxime eveniet, labore atque quis impedit doloremque? Praesentium molestiae iste mollitia, ea odio deleniti nostrum corporis, soluta sit, esse tenetur similique!
+      <main className='pt-16 font-sans text-lg xl:text-xl px-2 sm:px-3 md:px-6 lg:px-10 mb-56'>
+        <div className='px-2 md:px-2 lg:px-8 xl:px-20 flex flex-col mdlg:flex-row w-full justify-between'>
+          <div className='profile-div sm:text-right'>
+            <div className='profile-img-mobile'>
+              <img src={lua} className='p-8' />
+            </div>
+            <img src={lua} className='hidden sm:inline-block profile-img sm:float-right' />
+            <span>Profile about me. I play the drum kit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. Sint veritatis cum veniam perferendis illo tempore maxime eveniet, labore atque quis impedit doloremque? Praesentium molestiae iste mollitia, ea odio deleniti nostrum corporis, soluta sit, esse tenetur similique!</span>
           </div>
-          <div className='p-16 text-left'>
-            <img src={lua} className='w-48 m-4 float-left' />
-            Profile about Nick. Nick plays trombone and melodica. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. Sint veritatis cum veniam perferendis illo tempore maxime eveniet, labore atque quis impedit doloremque? Praesentium molestiae iste mollitia, ea odio deleniti nostrum corporis, soluta sit, esse tenetur similique!
+          <div className='profile-div sm:text-left'>
+            <div className='profile-img-mobile'>
+              <img src={lua} className='p-8' />
+            </div>
+            <img src={lua} className='hidden sm:inline-block profile-img sm:float-left' />
+            <span>Profile about Nick. Nick plays trombone and melodica. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur non ab. Omnis accusantium praesentium placeat aliquid. Libero exercitationem eveniet provident laudantium. Sint veritatis cum veniam perferendis illo tempore maxime eveniet, labore atque quis impedit doloremque? Praesentium molestiae iste mollitia, ea odio deleniti nostrum corporis, soluta sit, esse tenetur similique!</span>
           </div>
         </div>
         {/* <div className='my-96'>
