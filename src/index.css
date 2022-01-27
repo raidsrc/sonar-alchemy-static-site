@@ -7,7 +7,14 @@
 
 @layer base {
   p {
-    @apply pb-5 indent-10;
+    @apply py-3 indent-10;
+  }
+  hr::after {
+    
+    /* content: "XXXXX";
+    position: relative;
+    top: -19px;
+    @apply bg-slate-400 */
   }
 }
 
