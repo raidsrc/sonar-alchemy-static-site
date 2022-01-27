@@ -1,6 +1,12 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}", "./index.html"],
   theme: {
+    screens: {
+      'xs': '480px',
+      ...defaultTheme.screens,
+    },
     extend: {
       screens: {
         "mdlg": "840px",

@@ -7,7 +7,7 @@
 
 @layer base {
   p {
-    @apply pb-2;
+    @apply pb-5 indent-10;
   }
 }
 
