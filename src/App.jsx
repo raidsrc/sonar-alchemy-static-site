@@ -46,7 +46,7 @@ function App() {
         <div className='font-mono text-lg xl:text-xl px-10 '>
           <div className=' pb-6 text-2xl font-serif'>Definition:</div>
           <ol className='list-decimal list-inside pl-5 space-y-2'>
-            <li>San Francisco busking duo comprised of  <BlueUnderlinedLink href="https://twitter.com/raidsrc">Raymond Chen</BlueUnderlinedLink> (drums) and Nicholas Chan (horns).</li>
+            <li>San Francisco busking duo comprised of  <BlueUnderlinedLink href="https://landing.raidsrc.me">Raymond Chen</BlueUnderlinedLink> (drums) and Nicholas Chan (horns).</li>
             <li>Active since 2017; well-appreciated by locals.</li>
             <li>Follow Sonar Alchemy at ___________.</li>
             {/* <li>Follow Sonar Alchemy at *insert links here insert links here insert links here*.</li> */}
