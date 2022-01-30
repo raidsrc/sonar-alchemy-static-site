@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import bw from "./b&w.jpg"
 import lua from "./luaa.gif"
+import buskingGif from "./sonar alchemy busking gif 4x3.gif"
+import eastshoreParkGif from "./sonar alchemy at eastshore park gif.gif"
 const eastshoreParkGoogleMapsHref = "https://www.google.com/maps/place/37%C2%B048'34.0%22N+122%C2%B014'51.4%22W/@37.8094311,-122.2481602,19z/data=!3m1!4b1!4m13!1m6!3m5!1s0x808f87414cfd10fd:0x6501f371c46da839!2sEastshore+Park!8m2!3d37.809542!4d-122.2481954!3m5!1s0x0:0x2b3e6b5d8f2eca94!7e2!8m2!3d37.8094302!4d-122.247613"
 const ferryBuildingGoogleMapsHref = "https://www.google.com/maps/place/37%C2%B047'47.1%22N+122%C2%B023'40.9%22W/@37.7963417,-122.3948065,19.64z/data=!4m14!1m7!3m6!1s0x808580668cd055bb:0x9cbbc099ec82aef7!2sFerry+Building,+San+Francisco,+CA+94105!3b1!8m2!3d37.7955703!4d-122.3933208!3m5!1s0x80858067274cde0f:0x9a34cfa45705d700!7e2!8m2!3d37.796423!4d-122.3946981"
 
@@ -35,7 +37,7 @@ function App() {
     <div className='text-zinc-100 mb-10'>
       <header className=''>
         <span className='absolute top-60 w-full text-center text-lg opacity-30 z-10'>in the future the photograph of us playing will go here</span>
-        <img src={bw} className='h-[80vh] opacity-50 -z-10 w-screen md:h-screen brightness-50 header-img-slant object-cover' />
+        <img src={bw} className='h-[80vh] opacity-50 -z-10 w-screen md:h-screen brightness-75 header-img-slant object-cover' />
         <div className='absolute md:flex flex-row flex-wrap items-baseline justify-between md:justify-start w-10/12 sm:w-11/12 bottom-56 left-8 md:bottom-32 md:left-10 landscape-phone:bottom-32'>
           <div className='text-5xl md:text-7xl lg:text-8xl pr-10 pb-2 text-blue-200'>Sonar Alchemy</div>
           <div className='text-3xl font-serif font-bold lg:pl-36'>noun</div>
@@ -46,7 +48,7 @@ function App() {
         <div className='font-mono text-lg xl:text-xl px-10 '>
           <div className=' pb-6 text-2xl font-serif'>Definition:</div>
           <ol className='list-decimal list-inside pl-5 space-y-2'>
-            <li>San Francisco busking duo comprised of  <BlueUnderlinedLink href="https://landing.raidsrc.me">Raymond Chen</BlueUnderlinedLink> (drums) and Nicholas Chan (horns).</li>
+            <li>San Francisco busking duo comprised of  <BlueUnderlinedLink href="https://landing.raidsrc.me">Raymond Chen</BlueUnderlinedLink> (drums) and <BlueUnderlinedLink href="mailto:nchan2@mail.sfsu.edu">Nicholas Chan</BlueUnderlinedLink> (horns).</li>
             <li>Active since 2017; well-appreciated by locals.</li>
             <li>Follow Sonar Alchemy at ___________.</li>
             {/* <li>Follow Sonar Alchemy at *insert links here insert links here insert links here*.</li> */}
@@ -110,12 +112,21 @@ function App() {
           <p>
             Nick and Ray were friends for several years before Ray joined Nick in their high school's student jazz band in 2017. Nick, already enrolled in the band for years prior, had been busking in San Francisco on his own for a little while. Ray hadn't the slightest urge to street perform until Nick suggested that they join forces and take the streets by storm with their loud, forceful, jazz/funk/pep-band/video-game-soundtrack-inspired brand of acoustic street music. Just like that, <SonarAlchemy /> was born.
           </p>
-          <div className='flex justify-center py-10'>
-            <img src={lua} className='w-3/4 xs:w-1/2 sm:w-1/3 lg:w-1/5 xl:w-1/6' />
+          <div className='flex flex-col items-center justify-center py-10'>
+            <img src={eastshoreParkGif} className='w-10/12 xs:w-1/2 sm:w-5/12 lg:w-1/3 xl:w-1/4' />
+            <div className='py-4 text-center'>
+              Eastshore Park, Oakland, December 2018
+            </div>
           </div>
           <p>
             They started out jamming in <BlueUnderlinedLink href={eastshoreParkGoogleMapsHref} >Eastshore Park</BlueUnderlinedLink> in Oakland, by Lake Merritt. Playing in Eastshore Park was sufficient enough to get a feel for the task, but when they desired a larger audience, they moved to San Francisco's <BlueUnderlinedLink href={ferryBuildingGoogleMapsHref} >Ferry Building</BlueUnderlinedLink>. Today, <SonarAlchemy /> calls San Francisco their home and are exploring the city searching for new street corners to bring the heat.
           </p>
+          <div className='flex flex-col items-center justify-center py-10'>
+            <img src={buskingGif} className='w-full xs:w-2/3 sm:w-1/2 lg:w-5/12 xl:w-1/3' />
+            <div className='py-4 text-center'>
+              Pier 1, San Francisco, June 2021
+            </div>
+          </div>
         </div>
       </main>
     </div>
